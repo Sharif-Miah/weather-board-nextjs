@@ -7,7 +7,7 @@ const WeatherComponent = async ({ lat, lon }) => {
 
   return (
     <Card>
-      <h6 className='feature-name'>Current Weather</h6>
+      <h6 className='feature-name'>Current Weather Now</h6>
       <div className='feature-main'>
         <Image
           className='max-w-20'
