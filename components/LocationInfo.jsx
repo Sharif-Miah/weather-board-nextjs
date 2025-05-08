@@ -1,4 +1,3 @@
-import React from 'react';
 import LocationSwitcher from './LocationSwitcher';
 import { getLocationData } from '@/lib/location-info';
 
