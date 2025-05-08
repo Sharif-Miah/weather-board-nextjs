@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'Create Next App',
+  title: 'Weathe Dashboard',
   description: 'One place Deshboard for Ecovista',
 };
 

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import '../globals.css';
 
 export const metadata = {
-  title: 'Create Next App',
+  title: 'Weathe Dashboard',
   description: 'One place Deshboard for Ecovista',
 };
 
