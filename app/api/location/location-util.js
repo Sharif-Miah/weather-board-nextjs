@@ -11,13 +11,38 @@ const data = [
   },
   {
     location: 'Dhaka',
-    latitude: 23.777176,
-    longitude: 90.399452,
+    latitude: 23.8041,
+    longitude: 90.4152,
+  },
+  {
+    location: 'Berlin',
+    latitude: 52.520008,
+    longitude: 13.404954,
+  },
+  {
+    location: 'Paris',
+    latitude: 48.8575,
+    longitude: 2.3514,
+  },
+  {
+    location: 'Rome',
+    latitude: 41.8967,
+    longitude: 12.4822,
   },
   {
     location: 'Singapore',
     latitude: 1.2899175,
     longitude: 103.8519072,
+  },
+  {
+    location: 'Sydney',
+    latitude: 33.8688,
+    longitude: 151.2093,
+  },
+  {
+    location: 'Narsingdi',
+    latitude: 23.920717,
+    longitude: 90.718811,
   },
   {
     location: 'New York',
@@ -28,6 +53,11 @@ const data = [
     location: 'Toronto',
     latitude: 43.6534817,
     longitude: -79.3839347,
+  },
+  {
+    location: 'Araihazar',
+    latitude: 23.7917,
+    longitude: 90.6536,
   },
 ];
 
