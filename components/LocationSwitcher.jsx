@@ -34,7 +34,7 @@ const LocationSwitcher = () => {
           <ul
             role='list'
             className='divide-y divide-gray-100 [&>*]:py-2 [&>li]:cursor-pointer'>
-            {locations.map((info) => (
+            {locations?.map((info) => (
               <li key={info.location}>
                 <Link
                   href={`/${info.location}?latitude=${info.latitude}&longitude=${info.longitude}`}>
