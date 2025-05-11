@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 
 const LocationDetector = () => {
   const [loading, setLoating] = useState(false);
@@ -44,4 +44,10 @@ const LocationDetector = () => {
   );
 };
 
-export default LocationDetector;
+export default function LocationDetectorComponent() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LocationDetector />
+    </Suspense>
+  );
+}
